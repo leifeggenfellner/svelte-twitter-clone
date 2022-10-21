@@ -1,8 +1,25 @@
+<script lang="ts">
+	import Compose from '$components/compose.svelte';
+	import Tweet from '$components/tweet.svelte';
+	import type { ActionData } from './$types';
+	import type { PageData } from './$types';
+	import type { TweetType } from '$types';
+
+	export let data: PageData;
+	const tweets: TweetType[] = data.body?.tweets || [];
+</script>
+
 <svelte:head>
 	<title>Home</title>
 </svelte:head>
 
-<h1>Feed</h1>
+<h1>Home</h1>
+
+<Compose />
+
+{#each tweets as tweet}
+	<Tweet {tweet} />
+{/each}
 
 <style>
 	h1 {

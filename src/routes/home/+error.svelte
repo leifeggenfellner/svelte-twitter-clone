@@ -3,16 +3,15 @@
 </script>
 
 <div class="error">
-	<h1>{$page.status}: {$page?.error?.message} {$page.url.pathname}</h1>
-	<img src="/Doge.jpg" alt="Doge" />
+	<h1>{$page.status}: {$page?.error?.message}</h1>
+	<img src="/error.jpg" alt="Error message" />
 </div>
 
 <style>
 	.error {
-		height: 100vh;
 		display: grid;
 		gap: var(--spacing-32);
-		place-content: center;
+		padding: var(--spacing-24) var(--spacing-32);
 		place-items: center;
 	}
 

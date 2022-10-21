@@ -1905,6 +1905,11 @@ svelte-preprocess@^4.0.0, svelte-preprocess@^4.10.6:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
+svelte-textarea-auto-height@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/svelte-textarea-auto-height/-/svelte-textarea-auto-height-1.1.0.tgz#3bef56837a42c3523db6fe353d86b70525e1bd5c"
+  integrity sha512-YC1gJBUS8/jFRp/5ZZ3M+N9D8ZRwbWvu8YY0wIoo9K/eWxs5y2sPiAte8HtWqS+fG4enuAuOzRPVuVxM544F1w==
+
 svelte@^3.44.0:
   version "3.52.0"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.52.0.tgz#08259eff20904c63882b66a5d409a55e8c6743b8"

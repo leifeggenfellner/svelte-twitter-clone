@@ -17,7 +17,9 @@
 	</section>
 
 	<section class="login">
-		<a class="btn" href="/home">🔥 Share Your Hot Take</a>
+		<a class="btn" href="/home" data-sveltekit-prefetch
+			>🔥 Share Your Hot Take</a
+		>
 	</section>
 </main>
 

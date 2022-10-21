@@ -25,23 +25,23 @@ export function randomDate(): string {
 function getUsers() {
 	return [
 		{
-			name: 'matia',
-			handle: '@joyofcodedev',
-			email: 'matia@example.test',
-			avatar: '/profile/matia/avatar.webp',
+			name: 'leif',
+			handle: '@leifeggenfellner',
+			email: 'leif@example.test',
+			avatar: '/profile/leif/avatar.webp',
 			about: 'Likes long walks on the beach. 😘',
 			tweets: {
 				create: [
 					{
 						url: randomUrl(),
 						posted: randomDate(),
-						content: `SvelteKit is lit. 🔥`,
+						content: `SvelteKit is the best. 🔥`,
 						likes: 10
 					},
 					{
 						url: randomUrl(),
 						posted: randomDate(),
-						content: `I love Svelte! ❤️`,
+						content: `I love Music! ❤️`,
 						likes: 24
 					},
 					{
@@ -63,7 +63,7 @@ function getUsers() {
 			name: 'bob',
 			handle: '@bobross',
 			email: 'bob@example.test',
-			avatar: '/profile/bob/avatar.webp',
+			avatar: '/profile/bob/avatar.jpg',
 			about: 'Likes painting.',
 			tweets: {
 				create: [

@@ -38,7 +38,8 @@
 	"author": "leifeggenfellner <eggenfellner@protonmail.com>",
 	"license": "MIT",
 	"dependencies": {
-		"@prisma/client": "^4.4.0"
+		"@prisma/client": "^4.4.0",
+		"svelte-textarea-auto-height": "^1.1.0"
 	},
 	"prisma": {
 		"seed": "node --loader ts-node/esm prisma/seed.ts"
